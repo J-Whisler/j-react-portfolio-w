@@ -1,8 +1,11 @@
 import React from "react";
+import { motion } from "framer-motion";
+import styled from "styled-components";
+import icelandBoat from "../img/Iceland-Boat.JPG";
 
 const AboutSection = () => {
   return (
-    <div>
+    <About>
       <div className="description">
         <div className="title">
           <div className="hide">
@@ -22,8 +25,14 @@ const AboutSection = () => {
       {/* <div className="image">
           <img src="" alt=""/>
       </div>  */}
-    </div>
+    </About>
   );
 };
+
+const About = styled(motion.div)`
+  height: 100vh;
+  width: 100%;
+  background: url(${icelandBoat}) no-repeat center center/cover;
+`;
 
 export default AboutSection;
