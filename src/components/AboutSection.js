@@ -14,12 +14,15 @@ const AboutSection = () => {
             </h2>
           </div>
           <div className="hide">
-            <h4>I am a front-end web developer based in Cleveland, Ohio</h4>
+            <h4>
+              I am a front-end web developer based in{" "}
+              <span className="cleveland">Cleveland, Ohio</span>
+            </h4>
           </div>
         </Title>
         <p>
           Click one of the links above to learn more about me, my work, or to
-          find out how to get in contact with me!
+          get in contact with me!
         </p>
       </Description>
       {/* <div className="image">
@@ -34,7 +37,8 @@ const About = styled(motion.div)`
   height: 100vh;
   width: 100%;
   background: url(${icelandBoat}) no-repeat center center/cover;
-  background-color: #f59087;
+  /* background-color: #fc3d49; */
+  background-color: #fa7676;
   /* background-color: #6d5555; */
   background-blend-mode: darken;
   z-index: -1;
@@ -61,8 +65,13 @@ const Title = styled(motion.div)`
     font-weight: 400;
   }
   span {
-    color: #8a0808;
+    color: #810505;
     letter-spacing: 0.4rem;
+  }
+
+  .cleveland {
+    color: #810505;
+    letter-spacing: 0.13rem;
   }
 `;
 
