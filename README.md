@@ -1,3 +1,6 @@
+Personal Portfolio Website built with React.  Learn about me and view my work using this website.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
